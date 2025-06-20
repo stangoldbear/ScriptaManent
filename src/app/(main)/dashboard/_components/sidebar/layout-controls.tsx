@@ -9,6 +9,8 @@ import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
 import type { SidebarVariant, SidebarCollapsible, ContentLayout } from "@/lib/layout-preferences";
 import { setValueToCookie } from "@/server/server-actions";
 
+import { ThemeSwitcher } from "./theme-switcher";
+
 type LayoutControlsProps = {
   readonly variant: SidebarVariant;
   readonly collapsible: SidebarCollapsible;
@@ -93,6 +95,10 @@ export function LayoutControls({ variant, collapsible, contentLayout }: LayoutCo
                   Full Width
                 </ToggleGroupItem>
               </ToggleGroup>
+            </div>
+            <div className="space-y-1">
+              <Label className="text-xs font-medium">Theme</Label>
+              <ThemeSwitcher />
             </div>
           </div>
         </div>
