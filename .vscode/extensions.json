@@ -1,0 +1,16 @@
+{
+    "recommendations": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "tomi.xasnippets",
+        "eamodio.gitlens",
+        "codezombiech.gitignore",
+        "donjayamanne.githistory",
+        "mhutchie.git-graph",
+        "oderwat.indent-rainbow",
+        "yzhang.markdown-all-in-one",
+        "davidanson.vscode-markdownlint",
+        "formulahendry.auto-rename-tag",
+        "christian-kohler.path-intellisense"
+    ]
+}
